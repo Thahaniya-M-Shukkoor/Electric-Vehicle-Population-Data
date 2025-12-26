@@ -44,8 +44,8 @@ We utilize the following libraries for this analysis:
 * **NumPy:** For numerical operations.
 * **Matplotlib & Seaborn:** For creating high-quality static visualizations.
 
-Structural Inspection: Performed initial checks using .info(), .head(), and .describe() to understand data types and numerical distributions.
-Inventory: Confirmed the presence of 17 initial columns, identifying mixed data types and potential areas for cleaning (e.g., null values in legislative districts).
+### Structural Inspection: Performed initial checks using .info(), .head(), and .describe() to understand data types and numerical distributions.
+### Inventory: Confirmed the presence of 17 initial columns, identifying mixed data types and potential areas for cleaning (e.g., null values in legislative districts).
 ---
 ## 4. Data Cleaning & Pre-processing
 * **Data Integrity:** Conducted a thorough check for duplicates and handled missing values in geographic columns to ensure statistical accuracy.

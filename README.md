@@ -31,7 +31,7 @@ To address the problem statement, we are utilizing a high-quality dataset contai
 * **Source:** Electric Vehicle Population Data (Washington State / Data.gov)
 * **Dataset Size:** 2,000 records and 17 columns.
 * **Data Variety:** The dataset includes a mix of:
-    * **Categorical Data:** Make, Model, Country, City, Electric Vehicle Type.
+    * **Categorical Data:** Make, Model, County, City, Electric Vehicle Type.
     * **Numerical Data:** Model Year, Electric Range, Base MSRP.
     * **Geospatial/Policy Data:** Legislative District, Vehicle Location, and CAFV Eligibility.
 
@@ -46,7 +46,6 @@ To address the problem statement, we are utilizing a high-quality dataset contai
 ---
 ## 4. Data Cleaning & Pre-processing
 * **Data Integrity:** Conducted a thorough check for duplicates and handled missing values in geographic columns to ensure statistical accuracy.
-* **Variable Standardizing:** Renamed the County column to Country to better align with the project’s reporting standards.
 * **Feature Engineering (Derived Columns):**
   * Categorizing CAFV Eligibility into three distinct groups: 'Eligible', 'Not Eligible', 'Unknown'
   * Categorizing Model Year into Eras for trend analysis: 'Early Adopters (<2015)','Mass Market Growth (2015-2019)','Current Expansion (2020+)'
@@ -79,12 +78,12 @@ This section presents a tiered analysis of the 2,000-record EV dataset, moving f
 * **Project Summary**
 This analysis of 2,000 electric vehicle records has provided a comprehensive look into the current state of EV adoption. Through extensive data cleaning and visualization, we have met all five project objectives.
 * **Key Findings**
-  * Geographic Concentration: Adoption is not uniform; it is heavily concentrated in specific urban hubs (e.g., King Country), which account for the vast majority of registrations.
+  * Geographic Concentration: Adoption is not uniform; it is heavily concentrated in specific urban hubs (e.g., King County), which account for the vast majority of registrations.
   * Adoption Growth: There has been an exponential surge in EV registrations since 2020, suggesting that the market has moved from "Early Adopters" to "Mass Market" growth.
   * Technological Advancement: The average electric range has steadily increased over the last decade, with modern vehicles frequently exceeding the 200-mile threshold, effectively reducing "range anxiety."
   * Market Leadership: While Tesla remains the dominant market leader, the increasing share of traditional manufacturers (Nissan, Kia, Chevrolet) indicates a maturing and more competitive marketplace.
   * Policy Impact: A significant portion of the fleet is CAFV-eligible, proving that government incentives remain a primary driver for consumer vehicle choice.
 * **Recommendations**
-  * Infrastructure Prioritization: Utility companies and government agencies should prioritize the installation of high-speed charging stations in high-density "Country" clusters identified in our geographic analysis.
+  * Infrastructure Prioritization: Utility companies and government agencies should prioritize the installation of high-speed charging stations in high-density "County" clusters identified in our geographic analysis.
   * Targeted Incentives: As the market matures, incentives should shift from general rebates to targeted support for "Standard Range" affordable models to help lower-income segments transition to electric.
   * Grid Readiness: Major utility providers should accelerate smart-grid upgrades to handle the localized power demand spikes caused by high EV concentration in specific regions.

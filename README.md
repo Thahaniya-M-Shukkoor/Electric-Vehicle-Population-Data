@@ -44,8 +44,8 @@ We utilize the following libraries for this analysis:
 * **NumPy:** For numerical operations.
 * **Matplotlib & Seaborn:** For creating high-quality static visualizations.
 
-### Structural Inspection: Performed initial checks using .info(), .head(), and .describe() to understand data types and numerical distributions.
-### Inventory: Confirmed the presence of 17 initial columns, identifying mixed data types and potential areas for cleaning (e.g., null values in legislative districts).
+* Structural Inspection: Performed initial checks using .info(), .head(), and .describe() to understand data types and numerical distributions.
+* Inventory: Confirmed the presence of 17 initial columns, identifying mixed data types and potential areas for cleaning (e.g., null values in legislative districts).
 ---
 ## 4. Data Cleaning & Pre-processing
 * **Data Integrity:** Conducted a thorough check for duplicates and handled missing values in geographic columns to ensure statistical accuracy.
@@ -60,21 +60,21 @@ We utilize the following libraries for this analysis:
 This section presents a tiered analysis of the 2,000-record EV dataset, moving from basic distributions to complex variable interactions.
 ### I. Univariate Analysis
 * **Focus:** Understanding the distribution and frequency of individual variables.
-  * Fig 5.4: Electric Range Distribution – A histogram/KDE plot showing the spread of battery capabilities across the fleet.
-  * Fig 5.5: CAFV Eligibility Analysis – A donut/pie chart illustrating the proportion of vehicles qualifying for Clean Alternative Fuel Vehicle incentives.
-  * Fig 5.7: Distribution of EV Types (BEV vs. PHEV) – A breakdown of pure battery electric vs. plug-in hybrid models.
-  * Fig 5.10: Range Category Distribution – A count plot of engineered categories (Standard, Long, Ultra-High Range).
+  * **Electric Range Distribution** – A histogram/KDE plot showing the spread of battery capabilities across the fleet.
+  * **CAFV Eligibility Analysis** – A donut/pie chart illustrating the proportion of vehicles qualifying for Clean Alternative Fuel Vehicle incentives.
+  * **Distribution of EV Types (BEV vs. PHEV)** – A breakdown of pure battery electric vs. plug-in hybrid models.
+  * **Range Category Distribution** – A count plot of engineered categories (Standard, Long, Ultra-High Range).
 ### II. Bivariate Analysis
 * **Focus:** Exploring the relationship between two distinct variables.
-  * Fig 5.1: Top 10 Countries by EV Adoption – A bar chart mapping geographic locations against vehicle counts to identify adoption hotspots.
-  * Fig 5.2: EV Adoption Trends Over Time – A line chart showing the relationship between Model Year and registration volume.
-  * Fig 5.3: Market Share by Manufacturer – A ranking of top brands to identify market dominance.
-  * Fig 5.6: Top 10 Most Popular EV Models – Identifying specific model performance within the dataset.
-  * Fig 5.8: Average Electric Range Evolution – A time-series trend showing how battery technology (Mean Range) has improved by Model Year.
-  * Fig 5.9: Dominant Electric Utility Providers – A categorical comparison of utility companies and the number of vehicles they serve.
+  * **Top 10 Countries by EV Adoption** – A bar chart mapping geographic locations against vehicle counts to identify adoption hotspots.
+  * **EV Adoption Trends Over Time** – A line chart showing the relationship between Model Year and registration volume.
+  * **Market Share by Manufacturer** – A ranking of top brands to identify market dominance.
+  * **Top 10 Most Popular EV Models** – Identifying specific model performance within the dataset.
+  * **Average Electric Range Evolution** – A time-series trend showing how battery technology (Mean Range) has improved by Model Year.
+  * **Dominant Electric Utility Providers** – A categorical comparison of utility companies and the number of vehicles they serve.
 ### III. Multivariate Analysis
 * **Focus:** Analyzing three or more variables to uncover deep correlations and patterns.
-  * Fig 5.11: Statistical Correlation Analysis – A heatmap matrix analyzing the simultaneous interaction between Model Year, Electric Range, and Vehicle Age. This visual identifies the strength and direction of
+  * **Statistical Correlation Analysis** – A heatmap matrix analyzing the simultaneous interaction between Model Year, Electric Range, and Vehicle Age. This visual identifies the strength and direction of
               relationships across all numerical features in the dataset.
 
 ---

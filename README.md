@@ -37,13 +37,10 @@ To address the problem statement, we are utilizing a high-quality dataset contai
 
 ---
 ## 3. Data Loading and Initial Overview
-Importing Libraries
-We utilize the following libraries for this analysis:
-
-* **Pandas:** For data manipulation and structure.
-* **NumPy:** For numerical operations.
-* **Matplotlib & Seaborn:** For creating high-quality static visualizations.
-
+* Libraries used:
+   * **Pandas:** For data manipulation and structure.
+   * **NumPy:** For numerical operations.
+   * **Matplotlib & Seaborn:** For creating high-quality static visualizations.
 * Structural Inspection: Performed initial checks using .info(), .head(), and .describe() to understand data types and numerical distributions.
 * Inventory: Confirmed the presence of 17 initial columns, identifying mixed data types and potential areas for cleaning (e.g., null values in legislative districts).
 ---
